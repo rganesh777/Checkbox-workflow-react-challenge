@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
+  base: '/Checkbox-workflow-react-challenge/',
   server: {
     host: 'localhost',
     port: 5173,
