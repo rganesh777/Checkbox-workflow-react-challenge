@@ -22,13 +22,16 @@ npm run dev
 - minimum number of items for fields, Dropdown options.
 
 - Auto-save to localStorage when workflow is valid
+  - Debounce saves (2 seconds after changes)
 - Disabled Save button when the worflow is not valid.
-- Debounce saves (2 seconds after changes)
 - Show save status indicator - Click to Open More Info Modal.
-- - idle/saving/saved/error
-- - Last saved timestamp
-- - Appropriate icons
+  - idle/saving/saved/error
+  - Last saved timestamp
+  - Appropriate icons
 - Restore workflow on app reload with user prompt
+  - Prompt user to restore or discard
+  - Discard Option
 - Field name autocomplete for conditional nodes
+  - All saved fields.
 
 - Unit tests for Components. Needs to write tests for all Components.
